@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layered Box Model</title>
+
+    <style>
+
+        body {
+            background-color: lightblue;
+            text-align: center;
+            font-family: Arial;
+        }
+        .outer {
+            border: 8px solid blue;
+            padding: 30px;
+            margin: 30px;
+            background-color: lightyellow;
+        }
+        .middle {
+            border: 6px solid red;
+            padding: 25px;
+            margin: 20px;
+            background-color: lightpink;
+        }
+        .inner {
+            border: 4px solid green;
+            padding: 30px;
+            margin: 15px;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Layered Box Model</h1>
+
+    <div class="outer">
+        <h2>Outer Container</h2>
+
+        <div class="middle">
+            <h2>Middle Border</h2>
+
+            <div class="inner">
+                <h2>Inner Box</h2>
+                <p>This is the innermost box.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
